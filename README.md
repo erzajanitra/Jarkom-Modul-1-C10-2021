@@ -5,6 +5,14 @@
 ### Soal
 
 Sebutkan webserver yang digunakan pada "ichimarumaru.tech"!
+- Untuk mencari webservernya pertama kita bisa menggunakan display filter `http.host == ichimarumaru.tech`
+  ![1a](screenshots/1a.png)
+
+- Setelah itu, lakukan follow pada HTTP streamnya
+  ![1b](screenshots/1b.png)
+
+- Lalu, muncullah web server dari host yang dicari
+  ![1c](screenshots/1c.png)
 
 ## No 2
 
@@ -12,11 +20,20 @@ Sebutkan webserver yang digunakan pada "ichimarumaru.tech"!
 
 Temukan paket dari web-web yang menggunakan basic authentication method!
 
+- Untuk mencari web yang menggunakan basic authentication method, dapat digunakan display filter `http.authbasic`
+  ![2](screenshots/2a.png)
+
 ## No 3
 
 ### Soal
 
 Ikuti perintah di basic.ichimarumaru.tech! Username dan password bisa didapatkan dari file .pcapng!
+
+- Lakukan display filter menggunakan `http.authbasic` dan cari credetials di dalam bagian authentication, bagian kiri sebelum ':' adalah username dan bagian lainnya adalah password
+  ![3a](screenshots/3a.png)
+
+- Setelah dimasukkan ke dalam basic.ichimarumaru.tech, website menampilkan soal mengenai pengkabelan T568A.
+  ![3b](screenshots/3b.png)
 
 ## No 4
 
@@ -24,11 +41,20 @@ Ikuti perintah di basic.ichimarumaru.tech! Username dan password bisa didapatkan
 
 Temukan paket mysql yang mengandung perintah query select!
 
+- Untuk mencari paket mysql mengandung query select, dapat digunakan display filter `mysql.query matches select`
+  ![4](screenshots/4a.png)
+
 ## No 5
 
 ### Soal
 
 Login ke portal.ichimarumaru.tech kemudian ikuti perintahnya! Username dan password bisa didapat dari query insert pada table users dari file .pcap!
+
+- Untuk mencari query insert, dapat menggunakan display filter seperti pada no 4 yaitu `mysql.query matches insert`, setelah itu bisa kita lihat pada bagian statement dari sqlnya terdapat username dan password.
+  ![5a](screenshots/5a.png)
+  
+- Setelah login terdapat soal mengenai pengkabelan T658B
+  ![5b](screenshots/5b.png)
 
 ## No 6
 
