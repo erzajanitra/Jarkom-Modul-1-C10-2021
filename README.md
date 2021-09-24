@@ -5,7 +5,8 @@
 ### Soal
 
 Sebutkan webserver yang digunakan pada "ichimarumaru.tech"!
-- Untuk mencari webservernya pertama kita bisa menggunakan display filter `http.host == ichimarumaru.tech`
+
+- Untuk mencari webservernya, kita bisa menggunakan display filter `http.host == ichimarumaru.tech`
   ![1a](screenshots/1a.png)
 
 - Setelah itu, lakukan follow pada HTTP streamnya
