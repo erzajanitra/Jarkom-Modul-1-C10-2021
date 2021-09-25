@@ -129,6 +129,7 @@ Selain itu terdapat "history.txt" yang kemungkinan berisi history bash server te
 Filter sehingga wireshark hanya mengambil paket yang berasal dari port 80!
 
 - Menggunakan capture filter dengan command **src port 80** untuk menangkap paket yang berasal dari port 80. Port 80 digunakan untuk mengakses web HTTP. <br>
+- Pada gambar dibawah ini tidak terdapat paket yang ditangkap karena tidak sedang mengakses web HTTP<br>
   ![image](https://user-images.githubusercontent.com/75319371/134529649-64a49d7e-1ca4-4a7f-92d4-1199a247e20e.png)
 
 ## No 12
@@ -138,6 +139,7 @@ Filter sehingga wireshark hanya mengambil paket yang berasal dari port 80!
 Filter sehingga wireshark hanya mengambil paket yang mengandung port 21!
 
 - Menggunakan capture filter dengan command **port 21** untuk menangkap paket yang mengandung port 21. Paket yang mengandung port 21 adalah paket yang berasal dari port 21 dan memiliki tujuan ke port 21. Port 21 digunakan untuk mengakses filezilla server<br>
+- Pada gambar dibawah ini tidak terdapat paket yang ditangkap karena tidak sedang mengakses filezilla server<br>
   ![image](https://user-images.githubusercontent.com/75319371/134529353-708b7c35-1786-4839-b76c-ac2b25fdf43e.png)
 
 ## No 13
