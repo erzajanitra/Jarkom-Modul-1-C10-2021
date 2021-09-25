@@ -1,7 +1,7 @@
-# Kelompok C10
-## Christian Bennett Robin 05111940000078
-## Erza Janitradevi Nadine 05111940000153
-## Akmal Zaki Asmara 05111940000154
+## Kelompok C10
+Christian Bennett Robin 05111940000078
+Erza Janitradevi Nadine 05111940000153
+Akmal Zaki Asmara 05111940000154
 
 
 # Soal dan Pembahasan Modul 1
